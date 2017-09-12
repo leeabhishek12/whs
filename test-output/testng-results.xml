@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26901" started-at="2017-09-11T13:34:15Z" finished-at="2017-09-11T13:34:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26901" started-at="2017-09-11T13:34:15Z" finished-at="2017-09-11T13:34:42Z">
+      <class name="com.whs.TestScript.Verify_Home_Page">
+        <test-method status="PASS" signature="home()[pri:0, instance:com.whs.TestScript.Verify_Home_Page@6d8a00e3]" name="home" duration-ms="26880" started-at="2017-09-11T19:04:15Z" finished-at="2017-09-11T19:04:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+      </class> <!-- com.whs.TestScript.Verify_Home_Page -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

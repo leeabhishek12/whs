@@ -1,0 +1,37 @@
+2017-09-11 16:20:32,178 [main] INFO com.whs.Utility_Log.Log - hi
+2017-09-11 16:21:41,693 [main] INFO com.whs.Utility_Log.Log - hi
+2017-09-11 16:22:29,414 [main] INFO Verify_Home_Page - hi
+2017-09-11 16:25:36,699 [main] INFO Verify_Home_Page - ******** Verify Home Page Test Script *********
+2017-09-11 16:26:12,024 [main] INFO Verify_Home_Page - ******** Verify Home Page Test Script *********
+2017-09-11 16:30:00,975 [main] INFO Verify_Home_Page - ******** Verify Home Page Test Script *********
+2017-09-11 16:30:15,907 [main] INFO Verify_Home_Page - ********** Application opened ***********
+2017-09-11 16:30:16,006 [main] INFO Verify_Home_Page - ********** Application closed ***********
+2017-09-11 17:50:36,898 [main] INFO Verify_Home_Page - ******** Verify Home Page Test Script *********
+2017-09-11 17:50:48,238 [main] INFO Verify_Home_Page - ********** Application opened ***********
+2017-09-11 17:50:48,256 [main] INFO Verify_Home_Page - ********** Application closed ***********
+2017-09-11 17:51:43,050 [main] INFO Verify_Home_Page - ******** Verify Home Page Test Script *********
+2017-09-11 17:51:54,088 [main] INFO Verify_Home_Page - ********** Application opened ***********
+2017-09-11 17:51:54,106 [main] INFO Verify_Home_Page - ********** Application closed ***********
+2017-09-11 17:56:28,019 [main] INFO Verify_Home_Page - ******** Verify Home Page Test Script *********
+2017-09-11 17:56:45,121 [main] INFO Verify_Home_Page - ********** Application opened ***********
+2017-09-11 17:56:45,140 [main] INFO Verify_Home_Page - ********** Application closed ***********
+2017-09-11 17:59:23,954 [main] INFO Verify_Home_Page - ******** Verify Home Page Test Script *********
+2017-09-11 17:59:35,139 [main] INFO Verify_Home_Page - ********** Application opened ***********
+2017-09-11 17:59:35,152 [main] INFO Verify_Home_Page - *************Title Verified ************
+2017-09-11 17:59:35,160 [main] INFO Verify_Home_Page - ********** Application closed ***********
+2017-09-11 18:55:45,321 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-11 18:55:56,154 [main] INFO Verify_Home_Page - Application opened
+2017-09-11 18:55:56,170 [main] INFO Verify_Home_Page - *************Title Verified ************
+2017-09-11 18:55:56,180 [main] INFO Verify_Home_Page - Application closed
+2017-09-11 18:57:12,105 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-11 18:57:22,700 [main] INFO Verify_Home_Page - Application opened
+2017-09-11 18:57:22,714 [main] INFO Verify_Home_Page - Title Verified
+2017-09-11 18:57:33,888 [main] INFO Verify_Home_Page - Application closed
+2017-09-11 19:02:18,190 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-11 19:02:29,287 [main] INFO Verify_Home_Page - Application opened
+2017-09-11 19:02:29,305 [main] INFO Verify_Home_Page - Title Verified
+2017-09-11 19:02:47,538 [main] INFO Verify_Home_Page - Application closed
+2017-09-11 19:04:15,786 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-11 19:04:26,366 [main] INFO Verify_Home_Page - Application opened
+2017-09-11 19:04:26,380 [main] INFO Verify_Home_Page - Title Verified
+2017-09-11 19:04:42,606 [main] INFO Verify_Home_Page - Application closed
