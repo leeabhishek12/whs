@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27850" started-at="2017-09-13T05:20:13Z" finished-at="2017-09-13T05:20:41Z">
+  <suite name="Default suite" duration-ms="27701" started-at="2017-09-13T13:51:40Z" finished-at="2017-09-13T13:52:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27850" started-at="2017-09-13T05:20:13Z" finished-at="2017-09-13T05:20:41Z">
+    <test name="Default test" duration-ms="27701" started-at="2017-09-13T13:51:40Z" finished-at="2017-09-13T13:52:08Z">
       <class name="com.whs.TestScript.Verify_Home_Page">
-        <test-method status="PASS" signature="home()[pri:0, instance:com.whs.TestScript.Verify_Home_Page@6d8a00e3]" name="home" duration-ms="27841" started-at="2017-09-13T10:50:13Z" finished-at="2017-09-13T10:50:41Z">
+        <test-method status="PASS" signature="home()[pri:0, instance:com.whs.TestScript.Verify_Home_Page@6d8a00e3]" name="home" duration-ms="27689" started-at="2017-09-13T19:21:40Z" finished-at="2017-09-13T19:22:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home -->

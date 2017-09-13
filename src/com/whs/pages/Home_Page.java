@@ -26,6 +26,9 @@ public class Home_Page extends Base_Class  {
 	static By SnapBackHats = By.xpath("//a[@class='dropdown-toggle DeskTopUrl'][text()='Snap Back Hats']");
 	static By TruckerHats = By.xpath("//a[@class='dropdown-toggle DeskTopUrl'][text()='Trucker Hats']");
 	static By WinterHats = By.xpath("//a[@class='dropdown-toggle DeskTopUrl'][text()='Winter Hats']");
+	static By HomePageImg = By.xpath("//img[@src='/WhStaging/img/frontend/logoNew.png']");
+	static By HomePageSearch = By.xpath("//img[@src='/WhStaging/img/frontend/cartnew.png']");
+	static By PatrioticHatsCategory = By.xpath("//a[text()='Patriotic Hats']");
 	
 	
 	
@@ -57,16 +60,28 @@ public class Home_Page extends Base_Class  {
 		Actions builder = new Actions(driver);
 		
 		
-		WebElement ele = driver.findElement(ShopAll);
-		builder.moveToElement(ele).build().perform();
+		WebElement ShopAllele = driver.findElement(ShopAll);
 		
-		Thread.sleep(2000);
-		builder.click(ele).build().perform();
+	
+		
+		builder.moveToElement(ShopAllele).build().perform();
+		
+		
+		builder.click(ShopAllele).build().perform();
+		Thread.sleep(4000);
+		
+		
 		
 		
 		String ShopAllDept = driver.getCurrentUrl();
 		
 		logger.info("Shop All Department URL :" +ShopAllDept);
+		
+		
+		
+	/*	builder.moveToElement(HomePageSearchele).build().perform();
+		builder.click(HomePageSearchele).build().perform();*/
+		
 		
 		if(ShopAllDept.contains("shopall")){
 			
@@ -76,15 +91,34 @@ public class Home_Page extends Base_Class  {
 		}
 		
 		
-		
+	
 	
 	}
 	
-	public static void verifyCategory(){
+	public static void verifyCategory() throws InterruptedException  {
 		
+		Logger logger=Logger.getLogger("Verify_Home_Page");
+		PropertyConfigurator.configure("Log4j.properties");
+		
+		Actions builder = new Actions(driver);
+		WebElement ShopAllele = driver.findElement(ShopAll);
+		builder.moveToElement(ShopAllele).build().perform();
+		WebElement PatrioticHatsCategoryele = driver.findElement(PatrioticHatsCategory);
+		builder.moveToElement(PatrioticHatsCategoryele).build().perform();
+		builder.click(PatrioticHatsCategoryele).build().perform();
+		Thread.sleep(4000);
+		String PatrioticHatsCat =   driver.getCurrentUrl();
+		
+		if(PatrioticHatsCat.contains("Patriotic")){
+			
+			logger.info("Patriotic Hats Category verified");
+			
+		}
 		
 		
 	}
+		
+	
 	
 	public static void verifyImages(){
 		

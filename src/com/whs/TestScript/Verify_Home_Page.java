@@ -31,6 +31,8 @@ public class Verify_Home_Page {
 		
 		Home_Page.verifyDepartment();
 		
+		Home_Page.verifyCategory();
+		
 		
 		Base_Class.closeApplication();
 		

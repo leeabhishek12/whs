@@ -96,3 +96,133 @@
 2017-09-13 10:50:41,211 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
 2017-09-13 10:50:41,211 [main] INFO Verify_Home_Page - Shop All Department verified
 2017-09-13 10:50:41,232 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 17:22:20,890 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 17:22:31,313 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 17:22:31,341 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 17:24:10,200 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 17:24:23,734 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 17:24:23,767 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 17:24:38,498 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 17:24:38,498 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 17:24:38,519 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 17:27:58,730 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 17:28:12,103 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 17:28:12,403 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 17:28:39,994 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 17:28:39,994 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 17:28:40,004 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 17:29:02,912 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 17:29:14,399 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 17:29:14,431 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 17:29:28,293 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 17:29:28,293 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 17:29:28,303 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 17:30:44,128 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 17:30:57,599 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 17:30:57,635 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 17:31:12,239 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 17:31:12,239 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 17:31:12,260 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 17:31:36,109 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 17:31:49,618 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 17:31:49,651 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 17:32:11,363 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 17:32:11,363 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 17:32:11,383 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 17:34:47,029 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 17:34:57,627 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 17:34:57,655 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 17:35:34,413 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 17:35:44,667 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 17:35:44,696 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 17:36:03,268 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 17:36:03,268 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 17:36:03,278 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 17:36:17,032 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 17:36:27,238 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 17:36:27,269 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 17:36:47,882 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 17:36:47,882 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 17:36:47,892 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 17:49:07,755 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 17:49:18,641 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 17:49:18,671 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 17:55:36,241 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 17:55:47,020 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 17:55:47,048 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 17:57:36,163 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 17:57:46,886 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 17:57:46,915 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 18:00:05,236 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 18:00:15,811 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 18:00:15,841 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 18:00:29,380 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 18:04:32,868 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 18:04:43,339 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 18:04:43,370 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 18:04:55,575 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 18:06:37,043 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 18:06:49,971 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 18:06:50,000 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 18:07:02,763 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 18:09:34,136 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 18:09:48,178 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 18:09:48,211 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 18:10:01,116 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 18:10:04,123 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 18:10:04,135 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 18:10:27,565 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 18:10:39,009 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 18:10:39,041 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 18:10:52,089 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 18:10:52,089 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 18:10:52,110 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 18:12:30,037 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 18:12:41,024 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 18:12:41,051 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 18:12:53,208 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 18:12:53,208 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 18:36:35,270 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 18:36:45,386 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 18:36:45,415 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 18:36:55,782 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 18:36:55,782 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 18:36:55,803 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 19:07:29,323 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 19:07:42,856 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 19:07:42,886 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 19:07:55,109 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 19:07:55,109 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 19:07:59,362 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 19:14:10,948 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 19:14:22,214 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 19:14:22,245 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 19:14:33,706 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 19:14:33,706 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 19:14:38,360 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 19:16:00,699 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 19:16:12,871 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 19:16:12,903 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 19:16:23,572 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 19:16:23,572 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 19:16:27,171 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 19:17:59,068 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 19:18:09,839 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 19:18:09,867 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 19:18:20,344 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 19:18:20,344 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 19:18:24,234 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 19:19:36,848 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 19:19:47,456 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 19:19:47,484 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 19:19:59,461 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 19:19:59,461 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 19:20:03,618 [main] INFO Verify_Home_Page - Patriotic Hats Category verified
+2017-09-13 19:20:03,629 [main] INFO Verify_Home_Page - Application closed
+2017-09-13 19:21:40,614 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-13 19:21:51,423 [main] INFO Verify_Home_Page - Application opened
+2017-09-13 19:21:51,455 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-13 19:22:03,993 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-13 19:22:03,993 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-13 19:22:08,222 [main] INFO Verify_Home_Page - Patriotic Hats Category verified
+2017-09-13 19:22:08,233 [main] INFO Verify_Home_Page - Application closed
