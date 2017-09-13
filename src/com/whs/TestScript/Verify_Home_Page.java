@@ -3,7 +3,7 @@ package com.whs.TestScript;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.testng.Reporter;
+
 import org.testng.annotations.Test;
 
 import com.whs.Utility.Base_Class;
