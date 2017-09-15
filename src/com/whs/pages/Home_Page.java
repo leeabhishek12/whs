@@ -1,8 +1,7 @@
 package com.whs.pages;
-
-
-
 import static org.testng.Assert.assertTrue;
+
+import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -13,11 +12,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+import com.thoughtworks.selenium.webdriven.commands.GetAttribute;
 import com.whs.Utility.Base_Class;
 
 public class Home_Page extends Base_Class  {
-	
-	
 	
 	static By ShopAll = By.xpath("//a[@class='dropdown-toggle DeskTopUrl'][text()='Shop All']");
 	static By Beanies = By.xpath("//a[@class='dropdown-toggle DeskTopUrl'][text()='Beanies']");
@@ -29,9 +27,9 @@ public class Home_Page extends Base_Class  {
 	static By HomePageImg = By.xpath("//img[@src='/WhStaging/img/frontend/logoNew.png']");
 	static By HomePageSearch = By.xpath("//img[@src='/WhStaging/img/frontend/cartnew.png']");
 	static By PatrioticHatsCategory = By.xpath("//a[text()='Patriotic Hats']");
+	static By TextHeading1 = By.xpath("//h4[@class='panel-title']/a");
 	
-	
-	
+	//verify home page title
 	public static void verifyPageTitle(){
 		
 		Logger logger=Logger.getLogger("Home_Page");
@@ -53,6 +51,7 @@ public class Home_Page extends Base_Class  {
 		
 	}
 	
+	//verify department
 	public static void verifyDepartment() throws InterruptedException {
 		Logger logger=Logger.getLogger("Verify_Home_Page");
 		PropertyConfigurator.configure("Log4j.properties");
@@ -95,6 +94,8 @@ public class Home_Page extends Base_Class  {
 	
 	}
 	
+	//verify category
+	
 	public static void verifyCategory() throws InterruptedException  {
 		
 		Logger logger=Logger.getLogger("Verify_Home_Page");
@@ -126,7 +127,22 @@ public class Home_Page extends Base_Class  {
 	
 	public static void verifyText(){
 		
+		List<WebElement> list = driver.findElements(TextHeading1);
 		
+		int li= list.size();
+		
+		System.out.println(li);
+		
+		
+		
+		for(WebElement ele : list){
+			
+			System.out.println("Text value"+ele.getAttribute("innerHTML"));
+		}
+		
+		
+		
+		//System.out.println("Hi");
 	}
 	
 	
