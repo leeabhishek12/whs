@@ -376,3 +376,27 @@
 2017-09-14 19:50:16,005 [main] INFO Verify_Home_Page - Shop All Department verified
 2017-09-14 19:50:20,566 [main] INFO Verify_Home_Page - Patriotic Hats Category verified
 2017-09-14 19:50:45,608 [main] INFO Verify_Home_Page - Application closed
+2017-09-19 10:09:01,417 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-19 10:09:13,748 [main] INFO Verify_Home_Page - Application opened
+2017-09-19 10:09:13,776 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-19 10:09:31,250 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-19 10:09:31,250 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-19 10:09:37,896 [main] INFO Verify_Home_Page - Patriotic Hats Category verified
+2017-09-19 10:09:49,331 [main] INFO Verify_Home_Page - Application closed
+2017-09-19 10:38:38,282 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-19 10:38:49,632 [main] INFO Verify_Home_Page - Application opened
+2017-09-19 10:38:49,663 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-19 10:39:02,980 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-19 10:39:02,980 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-19 10:39:09,845 [main] INFO Verify_Home_Page - Patriotic Hats Category verified
+2017-09-19 10:39:20,850 [main] INFO Verify_Home_Page - heading verified
+2017-09-19 10:39:20,941 [main] INFO Verify_Home_Page - Application closed
+2017-09-19 10:50:47,391 [main] INFO Verify_Home_Page - Verify Home Page Test Script
+2017-09-19 10:51:00,121 [main] INFO Verify_Home_Page - Application opened
+2017-09-19 10:51:00,154 [main] INFO Home_Page - Title Verified via assert which is :WholeSaleHats: Home
+2017-09-19 10:51:12,753 [main] INFO Verify_Home_Page - Shop All Department URL :http://208.112.88.220/WhStaging/Departments/view/shopall
+2017-09-19 10:51:12,753 [main] INFO Verify_Home_Page - Shop All Department verified
+2017-09-19 10:51:16,991 [main] INFO Verify_Home_Page - Patriotic Hats Category verified
+2017-09-19 10:51:27,693 [main] INFO Verify_Home_Page - heading verified
+2017-09-19 10:51:27,824 [main] INFO Verify_Home_Page - text under heading verified
+2017-09-19 10:51:27,844 [main] INFO Verify_Home_Page - Application closed

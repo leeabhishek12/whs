@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 
 
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
@@ -27,7 +28,11 @@ public class Home_Page extends Base_Class  {
 	static By HomePageImg = By.xpath("//img[@src='/WhStaging/img/frontend/logoNew.png']");
 	static By HomePageSearch = By.xpath("//img[@src='/WhStaging/img/frontend/cartnew.png']");
 	static By PatrioticHatsCategory = By.xpath("//a[text()='Patriotic Hats']");
-	static By TextHeading1 = By.xpath("//h4[@class='panel-title']/a");
+	static By TextHeading1 = By.xpath(".//*[contains(text(), 'Family')]");
+	static By TextUnderHeading1= By.xpath(".//*[contains(text(),'selling')]");
+	static By HomeLogo = By.xpath("//img[@src='/WhStaging/img/frontend/logoNew.png']");
+	
+	
 	
 	//verify home page title
 	public static void verifyPageTitle(){
@@ -125,26 +130,38 @@ public class Home_Page extends Base_Class  {
 		
 	}
 	
-	public static void verifyText(){
+	public static void verifyText() throws Exception {
 		
-		List<WebElement> list = driver.findElements(TextHeading1);
-		
-		int li= list.size();
-		
-		System.out.println(li);
+		Logger logger=Logger.getLogger("Verify_Home_Page");
+		PropertyConfigurator.configure("Log4j.properties");
 		
 		
+		driver.findElement(HomeLogo).click();
 		
-		for(WebElement ele : list){
+		Thread.sleep(5000);
+		
+        ((JavascriptExecutor)driver).executeScript("scroll(0,1100)");
+		
+		WebElement ele = driver.findElement(TextHeading1);
+		ele.click();
+		 
+		 String h4heading1 = ele.getText();
+		 
+		 if (h4heading1.contains("Family Owned and Operated With Family Values and Pride Since 1979!"))	{
+			 
+			 logger.info("heading verified");
+		 }
+		
+		
+		WebElement ele1 = driver.findElement(TextUnderHeading1);
+		String h4heading1undertext = ele1.getText();
+		
+		if(h4heading1undertext.contains("We've been selling wholesale hats, wholesale caps, and fashion headwear")){
 			
-			System.out.println("Text value"+ele.getAttribute("innerHTML"));
+			logger.info("text under heading verified");
 		}
 		
-		
-		
-		//System.out.println("Hi");
-	}
-	
+}	
 	
 	public static void verifySignUpEmail(){
 		
