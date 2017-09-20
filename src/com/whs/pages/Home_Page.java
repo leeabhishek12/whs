@@ -1,6 +1,8 @@
 package com.whs.pages;
 import static org.testng.Assert.assertTrue;
 
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -15,6 +17,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import com.thoughtworks.selenium.webdriven.commands.GetAttribute;
 import com.whs.Utility.Base_Class;
+import com.whs.Utility_Log.verifyLink;
 
 public class Home_Page extends Base_Class  {
 	
@@ -28,9 +31,13 @@ public class Home_Page extends Base_Class  {
 	static By HomePageImg = By.xpath("//img[@src='/WhStaging/img/frontend/logoNew.png']");
 	static By HomePageSearch = By.xpath("//img[@src='/WhStaging/img/frontend/cartnew.png']");
 	static By PatrioticHatsCategory = By.xpath("//a[text()='Patriotic Hats']");
-	static By TextHeading1 = By.xpath(".//*[contains(text(), 'Family')]");
-	static By TextUnderHeading1= By.xpath(".//*[contains(text(),'selling')]");
+	static By TextHeading1 = By.xpath(".//*[contains(text(), 'World')]");
+	static By TextUnderHeading1= By.xpath(".//*[contains(text(),'decades')]");
 	static By HomeLogo = By.xpath("//img[@src='/WhStaging/img/frontend/logoNew.png']");
+	static By Email = By.xpath("//input[@id='email']");
+	static By Submit = By.xpath("//button[text()='Submit']");
+	static By MessageforSignUPEmail = By.xpath(".//*[text()= 'You have subscribed successfully']");
+	
 	
 	
 	
@@ -144,29 +151,99 @@ public class Home_Page extends Base_Class  {
 		
 		WebElement ele = driver.findElement(TextHeading1);
 		ele.click();
+		Thread.sleep(3000);
 		 
 		 String h4heading1 = ele.getText();
 		 
-		 if (h4heading1.contains("Family Owned and Operated With Family Values and Pride Since 1979!"))	{
+		 if (h4heading1.contains("There's A Reason We've Sold More Wholesale Hats"))	{
 			 
 			 logger.info("heading verified");
+		 }
+		 
+		 else{
+			 logger.info("heading not verified");
 		 }
 		
 		
 		WebElement ele1 = driver.findElement(TextUnderHeading1);
 		String h4heading1undertext = ele1.getText();
 		
-		if(h4heading1undertext.contains("We've been selling wholesale hats, wholesale caps, and fashion headwear")){
+		if(h4heading1undertext.contains("For more than three decades, we've been fulfilling wholesale hat orders")){
 			
 			logger.info("text under heading verified");
 		}
 		
+		else {
+			
+			logger.info("text under heading not verified");
+			
+		}
+		
+		Thread.sleep(4000);
+		ele.click();
 }	
 	
-	public static void verifySignUpEmail(){
+	public static void verifySignUpEmail() throws Exception{
 		
+		
+		Logger logger=Logger.getLogger("Home_Page");
+		PropertyConfigurator.configure("Log4j.properties");
+		
+		((JavascriptExecutor)driver).executeScript("scroll(0,1600)");
+		
+		Thread.sleep(2000);
+		
+		// java.util.UUID.randomUUID() will generate random unique no.
+		
+		driver.findElement(Email).sendKeys(java.util.UUID.randomUUID()+"@gmail.com");
+		driver.findElement(Submit).click();
+		String messverify = driver.findElement(MessageforSignUPEmail).getText();
+		
+		if (messverify.contains("You have subscribed successfully")){
+			
+			logger.info("Sign up for news and offers successfull");
+		}
+		
+	
+		else if (messverify.contains("You have subscribed already")){
+			
+			logger.info("Sign up for news and offers already subscribed");
+		}
 		
 	}
+	
+	
+	//verify all link present in home page
+	
+	public static void VerifyLinks(){
+		
+		
+        List <WebElement> links= driver.findElements(By.tagName("a"));
+		
+		
+		//List<WebElement> links=driver.findElements(By.tagName("a"));
+		
+		System.out.println("Total links are "+links.size());
+		
+		for(int i=0;i<links.size();i++)
+		{
+			
+			WebElement ele= links.get(i);
+			
+			String url=ele.getAttribute("href");
+			
+			
+			//call method in verifylink class
+			verifyLink.verifyLinkActive(url);
+			
+		}
+	}
+	
+	
+	
+	
+	
+	
 	
 	
 	public static void verifyFooter(){

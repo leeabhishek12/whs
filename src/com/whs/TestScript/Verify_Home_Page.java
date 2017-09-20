@@ -34,7 +34,10 @@ public class Verify_Home_Page {
 		Home_Page.verifyCategory();
 		
 	    Home_Page.verifyText();
+	    
+	    Home_Page.verifySignUpEmail();
 		
+	    Home_Page.VerifyLinks();
 		
 		Base_Class.closeApplication();
 		
